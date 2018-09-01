@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CHICAGO CRIME</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<main>
+
+
+
+
+			<div class="header">
+				<div class="title"><a href="index.html">CHICAGO CRIME</a></div>
+								
+				<form>					
+					<input type="text" name="address" placeholder="Enter Address">
+
+					<div class="year-select">
+						<div class="year-displaying">							
+							<div class="year-triangle"></div>
+							<div class="year-selected">2017</div>
+						</div>
+
+						<div class="year-box">
+							<div class="year">ALL</div>
+							<div class="year">2018</div>	
+							<div class="year">2017</div>
+							<div class="year">2016</div>
+							<div class="year">2015</div>
+							<div class="year">2014</div>
+							<div class="year">2013</div>
+							<div class="year">2012</div>
+							<div class="year">2011</div>
+							<div class="year">2010</div>
+							<div class="year">2009</div>
+							<div class="year">2008</div>
+							<div class="year">2007</div>
+							<div class="year">2006</div>
+							<div class="year">2005</div>
+							<div class="year">2004</div>
+							<div class="year">2003</div>
+							<div class="year">2002</div>
+							<div class="year">2001</div>
+						</div>
+					</div>
+
+					<span class="search"><i class="fa fa-search" aria-hidden="true"></i></span>
+				</form>
+
+			</div>
+
+
+
+			<div class="half-circle"><div class="slide-triangle"></div></div>
+			<div class="left-panel">				
+				<div class="year-display">2017</div>
+				<div class="info">Enter address on right</div>
+				<ul class="list"></ul>
+			</div>
+
+
+
+			<div class="map-container">
+				<div id="map"></div>
+			</div>		
+		</main>
+
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUx3j9ka3-b_varlv5Qe4oCGreqFycBEA"></script>
+
+		<script src="jquery-3.2.1.min.js"></script>	
+		<script src="script.js"></script>
+	</body>
+
+</html>
